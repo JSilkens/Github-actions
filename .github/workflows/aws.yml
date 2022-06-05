@@ -95,7 +95,7 @@ jobs:
         
 
     - name: Deploy AWS APP RUNNER
-      id: build-image
+      id: deploy-runner
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
       run: |
