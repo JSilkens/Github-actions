@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "SpringBootApp",
-      "image": "public.ecr.aws/u5g2n5i9/github-actions/duncanc:latest",
+      "image": "***.dkr.ecr.eu-west-1.amazonaws.com/github-actions:latest",
       "cpu": 0,
       "links": [],
       "portMappings": [
